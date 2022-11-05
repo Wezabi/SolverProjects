@@ -2,11 +2,11 @@ package com.loldle;
 
 import java.util.List;
 
+import com.loldle.type.Gender;
 import com.loldle.type.RangeType;
 import com.loldle.type.Region;
 import com.loldle.type.Resource;
 import com.loldle.type.Role;
-import com.loldle.type.Gender;
 import com.loldle.type.Species;
 
 public interface Champion

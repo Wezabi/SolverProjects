@@ -73,4 +73,21 @@ public class Gnar implements Champion
 	{
 		return 2014;
 	}
+	
+    @Override
+    public boolean equals(Object obj)
+    {
+        if(obj instanceof Champion champion)
+        {
+            return getName().equals(champion.getName());
+        }
+        
+        return false;
+    }
+    
+    @Override
+    public int hashCode()
+    {
+        return getName().hashCode();
+    }
 }
