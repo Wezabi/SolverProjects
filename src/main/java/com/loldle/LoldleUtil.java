@@ -7,6 +7,8 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
+import com.loldle.champion.comparator.ChampionComparator;
+
 public final class LoldleUtil
 {
     private LoldleUtil()
@@ -21,7 +23,7 @@ public final class LoldleUtil
     
     public static List<Champion> getArchivedChampions()
     {
-        return LOLDLE_ARCHIVE.entrySet().stream().map(Map.Entry::getValue).distinct().toList();
+        return LOLDLE_ARCHIVE.entrySet().stream().map(Map.Entry::getValue).distinct().sorted(new ChampionComparator()).toList();
     }
     
     public static List<Champion> getDuplicateArchiveChampions()

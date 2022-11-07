@@ -9,6 +9,8 @@ public class LoldleSolver
     {
         List<Champion> championGuessPool = new ArrayList<>();
         
+        championGuessPool = LoldleUtil.getNonArchivedChampions();
+
         LoldleUtil.printChampions(championGuessPool);
     }
 }

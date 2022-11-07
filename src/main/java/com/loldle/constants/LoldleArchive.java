@@ -13,6 +13,8 @@ public final class LoldleArchive
     }
     
     public static final Map<Integer, Champion> LOLDLE_ARCHIVE = Map.ofEntries(
+            new AbstractMap.SimpleEntry<>(123, new Taliyah()),
+            new AbstractMap.SimpleEntry<>(122, new Shyvana()),
             new AbstractMap.SimpleEntry<>(121, new BelVeth()),
             new AbstractMap.SimpleEntry<>(120, new Sylas()),
             new AbstractMap.SimpleEntry<>(119, new Taric()),
