@@ -47,7 +47,7 @@ public class Amumu implements Champion
 	@Override
 	public List<Species> getSpecies()
 	{
-		return singletonList(Species.MINOTAUR);
+		return asList(Species.UNDEAD, Species.YORDLE);
 	}
 
 	@Override

@@ -42,4 +42,23 @@ public final class LoldleUtil
         champions.stream().forEach(c -> 
         System.out.println("[" + String.format("%-23s", c.getName()) + "]"));
     }
+    
+//    public static void printChampions(List<Champion> champions, List<Enum> sorts)
+//    {
+//        System.out.println("[\tChampions\t]");
+//        System.out.println("[-----------------------]");
+//        System.out.println("[Champion count: " + String.format("%-6s", champions.size()) + " ]");
+//        System.out.println("[-----------------------]");
+//        champions.stream().forEach(c -> {
+//	        System.out.print("[" + String.format("%-23s", c.getName()));
+//	        
+//	        for(Enum sort : sorts)
+//	        {
+//	        	System.out.print(sort.)
+//	        }
+//	        
+//	        System.out.print("]");
+//	        System.out.println();
+//        });
+//    }
 }

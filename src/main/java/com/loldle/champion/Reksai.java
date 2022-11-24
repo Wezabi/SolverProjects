@@ -2,6 +2,7 @@ package com.loldle.champion;
 
 import static java.util.Collections.singletonList;
 
+import java.util.Arrays;
 import java.util.List;
 
 import com.loldle.Champion;
@@ -64,7 +65,7 @@ public class Reksai implements Champion
 	@Override
 	public List<Region> getRegions()
 	{
-		return singletonList(Region.VOID);
+		return Arrays.asList(Region.SHURIMA, Region.VOID);
 	}
 
 	@Override

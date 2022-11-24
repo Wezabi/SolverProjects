@@ -35,7 +35,7 @@ public class Ashe implements Champion
 	@Override
 	public Gender getGender()
 	{
-		return Gender.MALE;
+		return Gender.FEMALE;
 	}
 
 	@Override

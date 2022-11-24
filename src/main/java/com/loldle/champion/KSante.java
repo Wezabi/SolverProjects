@@ -15,7 +15,7 @@ import com.loldle.type.Species;
 
 /**
  * <p>
- * Implementation of Annie.
+ * Implementation of K'Sante.
  * </p>
  * <p>
  * Copyright &copy; 2022 
@@ -23,31 +23,31 @@ import com.loldle.type.Species;
  *
  * @Author Wes Huhman
  */
-public class Annie implements Champion
+public class KSante implements Champion
 {
 
 	@Override
 	public String getName()
 	{
-		return "Annie";
+		return "K'Sante";
 	}
 
 	@Override
 	public Gender getGender()
 	{
-		return Gender.FEMALE;
+		return Gender.MALE;
 	}
 
 	@Override
 	public List<Role> getRoles()
 	{
-		return singletonList(Role.MIDDLE);
+		return singletonList(Role.TOP);
 	}
 
 	@Override
 	public List<Species> getSpecies()
 	{
-		return asList(Species.HUMAN, Species.MAGICBORN);
+		return singletonList(Species.HUMAN);
 	}
 
 	@Override
@@ -59,19 +59,19 @@ public class Annie implements Champion
 	@Override
 	public List<RangeType> getRangeTypes()
 	{
-		return singletonList(RangeType.RANGED);
+		return singletonList(RangeType.MELEE);
 	}
 
 	@Override
 	public List<Region> getRegions()
 	{
-		return asList(Region.NOXUS, Region.RUNETERRA);
+		return singletonList(Region.SHURIMA);
 	}
 
 	@Override
 	public int getReleaseYear()
 	{
-		return 2009;
+		return 2022;
 	}
 	
     @Override

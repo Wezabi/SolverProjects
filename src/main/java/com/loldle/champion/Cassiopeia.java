@@ -65,7 +65,7 @@ public class Cassiopeia implements Champion
 	@Override
 	public List<Region> getRegions()
 	{
-		return singletonList(Region.NOXUS);
+		return asList(Region.NOXUS, Region.SHURIMA);
 	}
 
 	@Override

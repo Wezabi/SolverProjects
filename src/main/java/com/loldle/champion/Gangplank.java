@@ -41,7 +41,7 @@ public class Gangplank implements Champion
 	@Override
 	public List<Role> getRoles()
 	{
-		return asList(Role.MIDDLE, Role.TOP);
+		return singletonList(Role.TOP);
 	}
 
 	@Override

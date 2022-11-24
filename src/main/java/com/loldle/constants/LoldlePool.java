@@ -31,7 +31,7 @@ public final class LoldlePool
             new Sejuani(), new Senna(), new Seraphine(), new Sett(), new Shaco(), new Shen(), new Shyvana(), new Singed(),
             new Sion(), new Sivir(), new Skarner(), new Sona(), new Soraka(), new Swain(), new Sylas(), new Syndra(),
             new TahmKench(), new Taliyah(), new Talon(), new Teemo(), new Thresh(), new Tristana(), new Trundle(),
-            new Tryndamere(), new TwistedFate(), new TwistedFate(), new Udyr(), new Urgot(), new Varus(), new Vayne(),
+            new Tryndamere(), new TwistedFate(), new Udyr(), new Urgot(), new Varus(), new Vayne(),
             new Veigar(), new Velkoz(), new Vex(), new Vi(), new Viego(), new Viktor(), new Vladamir(), new Volibear(),
             new Warwick(), new Wukong(), new Xayah(), new Xerath(), new XinZhao(), new Yasuo(), new Yone(), new Yorick(),
             new Yuumi(), new Zac(), new Zed(), new Zeri(), new Ziggs(), new Zilean(), new Zoe(), new Zyra());

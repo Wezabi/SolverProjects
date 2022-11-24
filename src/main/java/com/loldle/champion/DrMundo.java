@@ -41,7 +41,7 @@ public class DrMundo implements Champion
 	@Override
 	public List<Role> getRoles()
 	{
-		return singletonList(Role.TOP);
+		return asList(Role.TOP, Role.JUNGLE);
 	}
 
 	@Override

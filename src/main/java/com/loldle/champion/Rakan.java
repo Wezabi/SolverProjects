@@ -58,7 +58,7 @@ public class Rakan implements Champion
 	@Override
 	public List<RangeType> getRangeTypes()
 	{
-		return singletonList(RangeType.RANGED);
+		return singletonList(RangeType.MELEE);
 	}
 
 	@Override

@@ -65,7 +65,7 @@ public class Viktor implements Champion
 	@Override
 	public List<Region> getRegions()
 	{
-		return singletonList(Region.ZAUN);
+		return asList(Region.PILTOVER, Region.ZAUN);
 	}
 
 	@Override
